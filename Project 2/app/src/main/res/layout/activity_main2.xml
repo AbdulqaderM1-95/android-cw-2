@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CBEFF4"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:text="Hello"
+        android:textAlignment="center"
+        android:textColor="#D51E10"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:hint="Please put your User Name"
+        android:textColor="#0B0101"
+        android:textSize="24sp" />
+
+
+    <TextView
+        android:id="@+id/tele"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:hint="Please put your Phone Number"
+        android:textColor="#0C0101"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="350dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:hint="Please put your Email Address"
+        android:textColor="#0B0101"
+        android:textSize="24sp" />
+
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:hint="Please insert your Address"
+        android:textColor="#0B0101"
+        android:textSize="24sp" />
+
+</LinearLayout>
